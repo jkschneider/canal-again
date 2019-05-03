@@ -1,0 +1,4 @@
+rootProject.name = 'canal'
+
+include 'canal-core'
+include 'canal-spinnaker'

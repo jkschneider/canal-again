@@ -1,0 +1,20 @@
+plugins {
+  id 'java'
+}
+
+test {
+  useJUnitPlatform()
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.projectlombok:lombok:latest.release'
+  implementation 'com.squareup.moshi:moshi:latest.release'
+  implementation 'com.squareup.moshi:moshi-adapters:latest.release'
+  implementation 'com.google.code.findbugs:jsr305:latest.release'
+
+  testImplementation 'org.junit.jupiter:junit-jupiter:latest.release'
+}
